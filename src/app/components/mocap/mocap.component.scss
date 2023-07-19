@@ -1,0 +1,21 @@
+.moncap{
+    width: 31vw;
+    position: relative;
+    
+    img{
+        width: 22.7rem;
+        margin: 0 auto;
+        image-rendering: optimizeQuality;
+    }
+}
+
+.image-conversacion{
+    position: absolute;
+    z-index: -1;
+    top: 1.8rem;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    max-width: 71%;
+}
+

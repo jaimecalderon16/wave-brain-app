@@ -1,0 +1,20 @@
+<div style="margin-top: 6rem;">
+    <div *ngFor="let imagen of imagenes; let i = index" [class.imagen]="true" [class.actual]="i === actual">
+      <!-- Aquí coloca el contenido de cada imagen del carrusel -->
+      <img src="./assets/images/lock.png" alt="">
+      <img src="./assets/images/visa.png" alt="">
+      <img src="./assets/images/brainwave-logo.png" alt="">
+    </div>
+  </div>
+  
+  <div>
+    <span *ngFor="let punto of puntos; let i = index" class="punto" [class.activo]="i === actual" (click)="mostrar(i)"></span>
+  </div>
+  
+  <button (click)="anterior()">Anterior</button>
+  <button (click)="siguiente()">Siguiente</button>
+  
+  <button (click)="playpause()">
+   
+  </button>
+  

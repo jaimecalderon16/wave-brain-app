@@ -1,0 +1,32 @@
+.app-carrusel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .imagen {
+    width: 5rem;
+    height: 5rem;
+  }
+  
+  .actual {
+    display: block;
+  }
+  
+  .punto {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: gray;
+    cursor: pointer;
+  }
+  
+  .activo {
+    background-color: blue;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  

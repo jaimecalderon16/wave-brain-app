@@ -1,0 +1,109 @@
+.header{
+    text-align: center;
+    margin-top: 7em;
+    div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3em;
+    padding: 2em;
+    padding-top: 2.5em;
+    h1{
+        font-family: 'Outfit', sans-serif;
+        width: 55%;
+        color: aliceblue;
+        font-weight: 600;
+        text-align: initial;
+    }
+
+    svg{
+        width: 30%;
+        margin-right: 3em;
+        animation: openai 6000ms infinite;
+    }
+}
+
+    button{
+        margin: 0 auto;
+}
+
+}
+
+
+.text-gpt{
+    color: #D31313;
+}
+
+.text-whatsapp{
+    color: #41B60A;
+}
+
+.section-moncap{
+    h2{
+        text-align: center;
+        margin: 2em 6em;
+        color: #FFEBB7;
+        font-size: 2.5rem;
+    }
+}
+.container-moncap{
+    margin-top: 3em;
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#text{
+    margin: 2.5em 0;
+    color: #ffff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 3rem;
+    padding: 0 3em;
+}
+
+#usoGpt{
+    padding: 2em 6em;
+    text-align: center;
+    h2{
+    color: #FFEBB7;
+    font-size: 3.5rem;
+    font-weight: 300;
+    }
+    p{
+        margin-top: 1.5em;
+        font-size: 2.5rem;
+    }
+}
+
+#tex-button-accion{
+    text-align: center;
+    padding: 1em 7em;
+    p{
+    font-size: 2rem;
+    color: rgb(163, 163, 163);
+    margin-bottom: 1.5em;
+    }
+}
+
+@keyframes openai {
+0%{
+    fill: #ffff;
+}
+
+25%{
+    fill: #4854ff;
+}
+
+50%{
+    fill: #8D268B;
+}
+75%{
+    fiil:#D37892;
+}
+100%{
+    fill: #FFEBB7;
+}
+}

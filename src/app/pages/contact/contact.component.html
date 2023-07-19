@@ -1,0 +1,92 @@
+<app-nav-bar></app-nav-bar>
+
+<div class="relative mt-20 h-screen pt-24 sm:pt-0 mb-10">
+ 
+    <div class="container mt-5 mx-auto grid grid-cols-1 md:grid-cols-2 items-center md:gap-20 ">
+    <div
+          class="content"
+        >
+        <div class="flex items-center gap-3">
+          <hr class="w-10 bg-orange-500 border "/>
+          <span class="md:text-[18px] font-medium text-gray-600 ">
+            GptChat / Bots  
+          </span>
+        </div>
+        <p class="text-cyan-400 text-[40px] lg:text-[45px] xl:text-[55px] font-bold leading-tight mt-5 sm:mt-0 ">
+            Menos llamadas <br> Más soporte 
+        </p>
+        <p class="mt-5 md:text-md text-gray-200">
+            No queremos mantenerte ahí, esperando que alguien conteste el teléfono. Es por eso que creemos que el chat en vivo en español y otros medios de comunicación por Internet pueden resolver problemas de manera más eficiente.
+        </p>
+        <div class="flex gap-4 mt-10">
+       
+        <button class="font-medium text-[16px] flex items-center px-5 py-3 md:py-4 md:px-8 rounded-xl capitalize bg-gradient-to-r from-orange-300 to-orange-500 hover:from-pink-500 hover:to-yellow-500  relative gap-2 transition duration-300 hover:scale-105 text-white shadow-glass " (click)="scrollToContact()">Contactar
+          <span class="animate-ping absolute right-0 top-0 w-3 h-3  rounded-full bg-gradient-to-r from-orange -400 to-orange-700 "></span>
+         </button>
+        
+        </div>
+    
+      </div>
+      <div class="relative sm:mt-0 mt-10 px-6 sm:px-0">
+    
+        <img class="w-[500px] animate__animated animate__fadeInRight animate__delay-.5s" src="./assets/images/contact.jpg" alt="" />
+      </div>
+    </div>
+    </div>
+
+<div class="text-center">
+    <h2 class="text-5xl text-white mb-6">¿Cómo podemos ayudarte?</h2>
+    <p class="text-gray-300 " >Estamos aquí para ti 24/7. Nuestro Equipo de Éxito del Cliente se llama así por una razón.</p>
+<div class="numerosContacto text-start mx-auto my-0 flex flex-inline justify-center items-center mt-6">
+    <div class="p-5 flex flex-col">
+        <span class="text-gray-300 ">Departamento de  ventas</span>
+        <a class="text-cyan-500 " href="mailto:ventas@wavebrain.co">ventas@wavebrain.co</a>
+    </div>
+    <div class="p-5 flex flex-col">
+        <span class="text-gray-300 ">Soporte para Clientes</span>
+        <a class="text-cyan-500 " href="mailto:soporte@wavebrain.co">soporte@wavebrain.co</a>
+    </div>
+    <div class="p-5 flex flex-col">
+        <span class="text-gray-300 ">Informacion</span>
+        <a class="text-cyan-500 " href="mailto:info@wavebrain.co">info@wavebrain.co</a>
+    </div>
+    <div class="p-5 flex flex-col">
+        <span class="text-gray-300 ">Numero telefono</span>
+        <span class="text-cyan-500 ">3027531389</span>
+    </div>
+</div> 
+</div>
+
+<!-- Tailwind Play: https://play.tailwindcss.com/qIqvl7e7Ww  -->
+
+
+<div id="contact" class="flex min-h-screen items-center justify-start">
+    <div class="mx-auto w-full max-w-lg">
+      <h1  class="text-4xl font-medium">Contactenos</h1>
+      <p class="mt-3 text-gray-500">Envíenos un correo electrónico a soporte@wavebrain.com o envíenos un mensaje aquí:</p>
+  
+      <form action="https://api.web3forms.com/submit" class="mt-10">
+      
+      <!-- This is a working contact form. 
+           Get your free access key from: https://web3forms.com/  -->
+  
+        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" /> 
+        <div class="grid gap-6 sm:grid-cols-2">
+          <div class="relative z-0">
+            <input type="text" name="name" class="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-400 focus:border-blue-600 focus:outline-none focus:ring-0" placeholder=" " />
+            <label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">Your name</label>
+          </div>
+          <div class="relative z-0">
+            <input type="text" name="email" class="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-400 focus:border-blue-600 focus:outline-none focus:ring-0" placeholder=" " />
+            <label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">Your email</label>
+          </div>
+          <div class="relative z-0 col-span-2">
+            <textarea name="message" rows="5" class="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-400 focus:border-blue-600 focus:outline-none focus:ring-0" placeholder=" "></textarea>
+            <label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">Your message</label>
+          </div>
+        </div>
+        <button type="submit" class="mt-5 rounded-md bg-black px-10 py-2 text-white">Send Message</button>
+      </form>
+    </div>
+  </div>
+<app-footer></app-footer>

@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$color-bg: #111827 ;
+$white-lihg:#fff ;
+$white-dark: #dfdfdf;
+$font-size-title: 4em;
+$font-size-subtitle:2em;
+/* Application-wide Styles */
+h1 {
+    color: $white-lihg;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $font-size-title;
+  }
+
+  h2, h3 {
+    color: $white-dark;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: $font-size-subtitle;
+  }
+
+  body {
+    margin: 0.5em;
+    background-color: $color-bg;
+  }
+
+  /* everywhere else */
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  p{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .text-font-poppins{
+    font-family: 'Poppins', sans-serif;
+  }

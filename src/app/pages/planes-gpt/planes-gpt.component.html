@@ -1,0 +1,7 @@
+<app-nav-bar-compras></app-nav-bar-compras>
+<h2 class="text-white text-6xl text-center mx-10 mb-4">! Todo lo que necesitas en un solo sitio ¡</h2>
+<p  class="text-gray-400 text-3xl text-center mx-8 mb-6">Elige Tu pLan De GPT-Chat que mejor se adapte a tus necesidades</p>
+<div class="pricing-container">
+    <app-pricing-card *ngFor="let pricing of pricings" [pricing]="pricing"></app-pricing-card>
+  </div>
+<app-footer-compras></app-footer-compras>
